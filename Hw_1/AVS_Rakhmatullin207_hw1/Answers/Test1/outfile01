@@ -1,0 +1,11 @@
+Filled container:
+Container contains 3 elements.
+1: Type: procedural	Contains abstract data types = yes
+Year of founding: 1937	Popularity: 5.130000 %
+Ratio of founding year to name length: 377.582846
+2: Type: object-oriented	Inheritance - Single
+Year of founding: 2000	Popularity: 20.340000 %
+Ratio of founding year to name length: 98.328417
+3: Type: functional	Lazy: yes	Typization - Strict
+Year of founding: 1997	Popularity: 34.520000 %
+Ratio of founding year to name length: 57.850521
