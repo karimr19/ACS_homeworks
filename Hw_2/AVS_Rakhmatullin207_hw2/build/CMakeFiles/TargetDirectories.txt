@@ -1,0 +1,3 @@
+/Users/karim/Desktop/ACS_homeworks/Hw_2/AVS_Rakhmatullin207_hw2/build/CMakeFiles/rebuild_cache.dir
+/Users/karim/Desktop/ACS_homeworks/Hw_2/AVS_Rakhmatullin207_hw2/build/CMakeFiles/edit_cache.dir
+/Users/karim/Desktop/ACS_homeworks/Hw_2/AVS_Rakhmatullin207_hw2/build/CMakeFiles/AVS_Rakhmatullin207_hw2.dir

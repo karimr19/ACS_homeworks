@@ -47,7 +47,7 @@ void OutProportion(language* l, FILE* outFile);
 // Вывод популярности языка.
 void OutPopularity(language* l, FILE* outFile);
 
-// Вычисление отношения года создания к количеству символов в названии.
+// Вычисление отношения года создания к популярности.
 double Proportion(language *l);
 
 #endif

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AVS_homework_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AVS_homework_1">
+				<Option output="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/bin/AVS_homework_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/../../../../../../include/c++/11.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/../../../../../../include/c++/11.2.0/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/../../../../../../include/c++/11.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 AVS_homework_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AVS_homework_1/fast">
+				<Option output="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/bin/AVS_homework_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/../../../../../../include/c++/11.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/../../../../../../include/c++/11.2.0/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/../../../../../../include/c++/11.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/lib/gcc/11/gcc/x86_64-apple-darwin20/11.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 AVS_homework_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/checkers.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/checkers.h">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/container.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/container.h">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/functional.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/functional.h">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/language.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/language.h">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/main.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/object_oriented.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/object_oriented.h">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/procedural.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/procedural.h">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/rnd.cpp">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/rnd.h">
+			<Option target="AVS_homework_1"/>
+		</Unit>
+		<Unit filename="/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

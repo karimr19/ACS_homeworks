@@ -1,0 +1,3 @@
+/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/karim/Desktop/ACS_homeworks/Hw_1/AVS_Rakhmatullin207_hw1/cmake-build-debug/CMakeFiles/AVS_homework_1.dir
