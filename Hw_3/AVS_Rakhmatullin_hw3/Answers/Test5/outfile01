@@ -1,0 +1,11 @@
+Container stores 5 languages:
+Functional: founding year = 2002, popularity = 13.31, typization = strict
+Founding year to popularity proportion = 150.41322314049586
+Functional: founding year = 2000, popularity = 32.32, typization = dynamic
+Founding year to popularity proportion = 61.88118811881188
+Procedural: founding year = 1995, popularity = 66.66, is abstract = False
+Founding year to popularity proportion = 29.92799279927993
+Object-oriented: founding year = 2010, popularity = 22.23, inheritance = multiple
+Founding year to popularity proportion = 90.41835357624831
+Procedural: founding year = 2005, popularity = 13.21, is abstract = True
+Founding year to popularity proportion = 151.778955336866

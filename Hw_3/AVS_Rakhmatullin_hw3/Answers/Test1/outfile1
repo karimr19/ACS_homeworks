@@ -1,0 +1,7 @@
+Container stores 3 languages:
+Procedural: founding year = 1937, popularity = 5.13, is abstract = True
+Founding year to popularity proportion = 377.5828460038986
+Object-oriented: founding year = 2000, popularity = 20.34, inheritance = interface
+Founding year to popularity proportion = 98.32841691248771
+Functional: founding year = 1997, popularity = 34.52, typization = strict
+Founding year to popularity proportion = 57.8505214368482
