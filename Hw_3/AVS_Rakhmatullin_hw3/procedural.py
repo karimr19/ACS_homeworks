@@ -36,6 +36,6 @@ class Procedural:
                           (self.founding_year, self.popularity, self.is_abstract, self.Proportion()))
         pass
 
-    # Считает отношение года создания к популярности
+    # Считает отношение года создания к популярност
     def Proportion(self):
         return self.founding_year / self.popularity
