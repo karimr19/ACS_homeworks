@@ -12,17 +12,17 @@
 
 // Процедурный язык
 struct procedural {
-    bool abstract; // наличие, отсутствие абстрактных типов данных
+    int abstract; // наличие, отсутствие абстрактных типов данных
 };
 
 // Ввод параметров процедурного языка из файла
-void InProcedural(procedural &p, FILE* input_file);
+void InProcedural(procedural *p, FILE* input_file);
 
 // Случайный ввод параметров процедурного языка
-void InRnd(procedural &p);
+void InRnd(procedural *p);
 
 // Вывод параметров процедурного языка в форматируемый поток
-void Out(procedural &p, FILE* output_file);
+void Out(procedural *p, FILE* output_file);
 
 
 #endif // __procedural__

@@ -32,8 +32,8 @@ language* InLanguage(FILE* input_file) {
     language *l;
     l = new language;
     int k;
-    bool checkLanguageType = CheckInt(input_file, &k);
-    if(!checkLanguageType) {
+    int checkLanguageType = CheckInt(input_file, &k);
+    if(checkLanguageType == 0) {
         return NULL;
     }
     double popularity;
@@ -44,15 +44,15 @@ language* InLanguage(FILE* input_file) {
     switch(k) {
         case 1:
             l->k = language::PROCEDURAL;
-            InProcedural(l->p, input_file);
+            InProcedural(&(l->p), input_file);
             return l;
         case 2:
             l->k = language::OBJECTORIENTED;
-            InObjectOriented(l->o, input_file);
+            InObjectOriented(&(l->o), input_file);
             return l;
         case 3:
             l->k = language::FUNCTIONAL;
-            InFunctional(l->f, input_file);
+            InFunctional(&(l->f), input_file);
             return l;
         default:
             return 0;
@@ -71,15 +71,15 @@ language *InRnd() {
     switch(k) {
         case 1:
             l->k = language::PROCEDURAL;
-            InRnd(l->p);
+            InRnd(&(l->p));
             return l;
         case 2:
             l->k = language::OBJECTORIENTED;
-            InRnd(l->o);
+            InRnd(&(l->o));
             return l;
         case 3:
             l->k = language::FUNCTIONAL;
-            InRnd(l->f);
+            InRnd(&(l->f));
             return l;
         default:
             return 0;
@@ -91,13 +91,13 @@ language *InRnd() {
 void Out(language *l, FILE* output_file) {
     switch(l->k) {
         case language::PROCEDURAL:
-            Out(l->p, output_file);
+            Out(&(l->p), output_file);
             break;
         case language::OBJECTORIENTED:
-            Out(l->o, output_file);
+            Out(&(l->o), output_file);
             break;
         case language::FUNCTIONAL:
-            Out(l->f, output_file);
+            Out(&(l->f), output_file);
             break;
         default:
             printf("Incorrect language!\n");

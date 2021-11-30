@@ -10,6 +10,7 @@
 #include "container.h"
 #include "time.h"
 #include "checkers.h"
+#include <errno.h>
 
 
 int main(int argc, char* argv[]) {

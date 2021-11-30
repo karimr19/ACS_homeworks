@@ -7,41 +7,41 @@
 
 //------------------------------------------------------------------------------
 // Ввод параметров объектно-ориентированного из файла
-void InObjectOriented(object_oriented &o, FILE* input_file) {
+void InObjectOriented(object_oriented *o, FILE* input_file) {
     int inheritance_type;
     fscanf(input_file, "%d", &inheritance_type);
     switch (inheritance_type) {
         case 1:
-            o.inheritance = object_oriented::SINGLE;
+            o->inheritance = object_oriented::SINGLE;
         case 2:
-            o.inheritance = object_oriented::MULTIPLE;
+            o->inheritance = object_oriented::MULTIPLE;
         case 3:
-            o.inheritance = object_oriented::INTERFACE;
+            o->inheritance = object_oriented::INTERFACE;
         default:
-            o.inheritance = object_oriented::SINGLE;
+            o->inheritance = object_oriented::SINGLE;
     }
 }
 
 // Случайный ввод параметров объектно-ориентированного языка
-void InRnd(object_oriented &o) {
+void InRnd(object_oriented *o) {
     int inheritance_type = IntRandom() % 3 + 1;
     switch (inheritance_type) {
         case 1:
-            o.inheritance = object_oriented::SINGLE;
+            o->inheritance = object_oriented::SINGLE;
         case 2:
-            o.inheritance = object_oriented::MULTIPLE;
+            o->inheritance = object_oriented::MULTIPLE;
         case 3:
-            o.inheritance = object_oriented::INTERFACE;
+            o->inheritance = object_oriented::INTERFACE;
         default:
-            o.inheritance = object_oriented::SINGLE;
+            o->inheritance = object_oriented::SINGLE;
     }
 }
 
 //------------------------------------------------------------------------------
 // Вывод параметров объектно-ориентированного языка в форматируемый поток
-void Out(object_oriented &o, FILE* output_file) {
+void Out(object_oriented *o, FILE* output_file) {
     char answer[10];
-    switch (o.inheritance) {
+    switch (o->inheritance) {
         case object_oriented::SINGLE:
             strcpy(answer, "Single");
         case object_oriented::MULTIPLE:

@@ -14,6 +14,6 @@ void ErrMessage1();
 void ErrMessage2();
 
 // Считывает число, если это возможно и возвращает true, иначе - false.
-bool CheckInt(FILE* input_file, int *number);
+int CheckInt(FILE* input_file, int *number);
 
 #endif //AVS_HOMEWORK_CHECKERS_H

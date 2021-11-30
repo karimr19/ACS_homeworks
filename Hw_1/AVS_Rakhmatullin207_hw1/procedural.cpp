@@ -7,25 +7,25 @@
 
 //------------------------------------------------------------------------------
 // Ввод параметров процедурного языка из файла
-void InProcedural(procedural &p, FILE* input_file) {
+void InProcedural(procedural *p, FILE* input_file) {
     int isAbstract;
     fscanf(input_file, "%d", &isAbstract);
     if(isAbstract > 0) {
-        p.abstract = true;
+        p->abstract = 1;
     } else {
-        p.abstract = false;
+        p->abstract = 0;
     }
 }
 
 // Случайный ввод параметров процедурного языка
-void InRnd(procedural &p) {
-    p.abstract = IntRandom() % 2 == 0;
+void InRnd(procedural *p) {
+    p->abstract = IntRandom() % 2;
 }
 
 //------------------------------------------------------------------------------
 // Вывод параметров процедурного языка в форматируемый поток
-void Out(procedural &p, FILE* output_file) {
+void Out(procedural *p, FILE* output_file) {
     char answer[4];
-    strcpy(answer, p.abstract ? "yes" : "no");
+    strcpy(answer, p->abstract ? "yes" : "no");
     fprintf(output_file, "Type: procedural\tContains abstract data types = %s\n", answer);
 }

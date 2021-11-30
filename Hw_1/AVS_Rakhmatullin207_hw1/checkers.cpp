@@ -22,11 +22,11 @@ void ErrMessage2() {
 }
 
 // Считывает число, если это возможно и возвращает true, иначе - false.
-bool CheckInt(FILE* inputFile, int *number) {
+int CheckInt(FILE* inputFile, int *number) {
     int checker = fscanf(inputFile, "%d", number);
     if (checker == EOF || checker == 0) {
         number = 0;
-        return false;
+        return 0;
     }
-    return true;
+    return 1;
 }

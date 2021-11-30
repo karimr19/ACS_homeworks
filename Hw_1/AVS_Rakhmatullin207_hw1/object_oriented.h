@@ -16,12 +16,12 @@ struct object_oriented {
 };
 
 // Ввод параметров объектно-ориентированного языка из файла
-void InObjectOriented(object_oriented &o, FILE* input_file);
+void InObjectOriented(object_oriented *o, FILE* input_file);
 
 // Случайный ввод параметров объектно-ориентированного языка
-void InRnd(object_oriented &o);
+void InRnd(object_oriented *o);
 
 // Вывод параметров объектно-ориентированного языка в форматируемый поток
-void Out(object_oriented &o, FILE* output_file);
+void Out(object_oriented *o, FILE* output_file);
 
 #endif // __procedural__

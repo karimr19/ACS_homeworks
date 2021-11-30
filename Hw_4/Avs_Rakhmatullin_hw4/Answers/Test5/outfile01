@@ -1,0 +1,17 @@
+Filled container:
+Container contains 5 elements.
+1: Type: functional	Lazy: no	Typization - Strict
+Year of founding: 2002	Popularity: 13.310000 %
+Ratio of founding year to name length: 150.413223
+2: Type: functional	Lazy: yes	Typization - Strict
+Year of founding: 2000	Popularity: 32.320000 %
+Ratio of founding year to name length: 61.881188
+3: Type: procedural	Contains abstract data types = no
+Year of founding: 1995	Popularity: 66.660000 %
+Ratio of founding year to name length: 29.927993
+4: Type: object-oriented	Inheritance - Single
+Year of founding: 2010	Popularity: 22.230000 %
+Ratio of founding year to name length: 90.418354
+5: Type: procedural	Contains abstract data types = yes
+Year of founding: 2005	Popularity: 13.210000 %
+Ratio of founding year to name length: 151.778955

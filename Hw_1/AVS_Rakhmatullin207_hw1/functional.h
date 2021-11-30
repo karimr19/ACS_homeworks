@@ -13,17 +13,17 @@
 struct functional {
     enum typization{STRICT, DYNAMIC};
     typization type;
-    bool lazy;
+    int lazy;
 };
 
 // Ввод параметров функционального языка из файла
-void InFunctional(functional &f, FILE* input_file);
+void InFunctional(functional *f, FILE* input_file);
 
 // Случайный ввод параметров функционального языка
-void InRnd(functional &f);
+void InRnd(functional *f);
 
 // Вывод параметров функционального языка в форматируемый поток
-void Out(functional &f, FILE* output_file);
+void Out(functional *f, FILE* output_file);
 
 
 #endif //__functional__
