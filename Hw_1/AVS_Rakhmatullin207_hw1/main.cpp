@@ -29,6 +29,12 @@ int main(int argc, char* argv[]) {
     Init(&c);
 
     if(!strcmp(argv[1], "-f")) {
+        errno = 0;
+        FILE *fb = fopen(argv[2], "rt");
+        if (fb==NULL) {
+            printf("Error %d \n", errno);
+            printf("It's null");
+        }
         FILE* input_file = fopen(argv[2], "r");
         In(&c, input_file);
     }

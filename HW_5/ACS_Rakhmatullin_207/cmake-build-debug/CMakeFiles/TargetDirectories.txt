@@ -1,0 +1,3 @@
+/Users/karim/Desktop/ACS_homeworks/HW_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/karim/Desktop/ACS_homeworks/HW_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/karim/Desktop/ACS_homeworks/HW_5/cmake-build-debug/CMakeFiles/HW_5.dir
